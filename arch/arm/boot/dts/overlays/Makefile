@@ -234,6 +234,7 @@ dtbo-$(CONFIG_ARCH_BCM2835) += \
 	ramoops-pi4.dtbo \
 	rootmaster.dtbo \
 	rotary-encoder.dtbo \
+    rpi-ad242x.dtbo \
 	rpi-backlight.dtbo \
 	rpi-codeczero.dtbo \
 	rpi-dacplus.dtbo \
