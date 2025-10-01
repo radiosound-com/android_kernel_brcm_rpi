@@ -93,6 +93,8 @@
   wait_for_completion_io
   bio_crypt_set_ctx
   zero_fill_bio_iter
+  percpu_ref_is_zero
+  vm_normal_folio_pmd
   __trace_bputs
   __traceiter_android_vh_proactive_compact_wmark_high
   __tracepoint_android_vh_proactive_compact_wmark_high
@@ -134,6 +136,8 @@
   __traceiter_android_vh_slab_free
   __traceiter_android_vh_should_fault_around
   __tracepoint_android_vh_should_fault_around
+  __traceiter_android_vh_add_lazyfree_bypass
+  __tracepoint_android_vh_add_lazyfree_bypass
   __traceiter_android_vh_mglru_should_abort_scan
   __tracepoint_android_vh_mglru_should_abort_scan
   __traceiter_android_vh_mglru_should_abort_scan_order
@@ -172,6 +176,10 @@
   __tracepoint_android_vh_udp_v6_connect
   __traceiter_android_rvh_dma_buf_stats_teardown
   __tracepoint_android_rvh_dma_buf_stats_teardown
+  __traceiter_android_vh_dma_buf_attr_show_start
+  __tracepoint_android_vh_dma_buf_attr_show_start
+  __traceiter_android_vh_dma_buf_attr_show_end
+  __tracepoint_android_vh_dma_buf_attr_show_end
   __traceiter_android_rvh_hw_protection_shutdown
   __tracepoint_android_rvh_hw_protection_shutdown
   __traceiter_android_rvh_bpf_int_jit_compile_ro
